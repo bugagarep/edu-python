@@ -64,17 +64,3 @@ while pos < len(list_1):
     print(list_1[pos], " |", list_1[pos] ** 2)
     pos += 1
 print()
-#########################
-matrix = [[1,2,3],
-          [4,5,6],
-          [7,8,9]]
-
-for i in range(len(matrix)):
-    print(i)
-print("-----")
-n = 3
-m = 3
-for i in range(n):
-    for j in range(m):
-        print(matrix[i][j])
-    print()
